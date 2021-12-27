@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohan Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lato&display=swap" rel="stylesheet"/>
+        <link href="index.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    </head>
+    <body>
+        
+        <!-- Header -->
+        <header>
+            <a href="#home" class="logo">Mohan</a>
+            <div id="menu-icon" class="fas fa-bars"></div>
+            <ul class="navbar list nav__list">
+                <li class="list__item"><a href="#home" class="list__link">Home</a></li>
+                <li class="list__item"><a href="#about" class="list__link">About</a></li>
+                <li class="list__item"><a href="#skills" class="list__link">Skills</a></li>
+                <li class="list__item"><a href="#projects" class="list__link">Projects</a></li>
+                <li class="list__item"><a href="#contact" class="list__link">Contact</a></li>
+            </ul>
+        </header>
+
+        <!-- Main -->
+        <main class="grid" id="home">
+            <div class="hero__content">
+                <h1 class="hero__title">I'm Mohan Krishna Reddy Nallamilli</h1>
+                <p class="hero__subtitle">Front-end Developer</p>
+                <a href="#contact" class="hero__btn">Hire Me</a>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="686" height="688" viewBox="0 0 686 688">
+                <g id="blockdesign" transform="translate(-935 -289)">
+                    <rect class="square-anim" data-name="Rectangle 2" width="172" height="172" rx="19" transform="translate(1277 289)" fill="#6e00ff"/>
+                    <rect class="square-anim" data-name="Rectangle 10" width="172" height="172" rx="86" transform="translate(1277 461)" fill="#ff64cb"/>
+                    <rect class="square-anim" data-name="Rectangle 8" width="172" height="172" rx="19" transform="translate(1449 461)" fill="#e5d5fa"/>
+                    <rect class="square-anim" data-name="Rectangle 5" width="172" height="172" rx="19" transform="translate(1277 633)" fill="#6e00ff"/>
+                    <rect class="square-anim" data-name="Rectangle 3" width="172" height="172" rx="19" transform="translate(1107 461)" fill="#fff"/>
+                    <rect class="square-anim" data-name="Rectangle 9" width="172" height="172" rx="86" transform="translate(1107 633)" fill="#00f7ff"/>
+                    <rect class="square-anim" data-name="Rectangle 7" width="172" height="172" rx="19" transform="translate(935 633)" fill="#fff" opacity="0.17"/>
+                    <rect class="square-anim" data-name="Rectangle 4" width="172" height="172" rx="19" transform="translate(1107 805)" fill="#fff"/>
+                </g>
+            </svg>
+            <div class="container stagger1">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </div>
+        </main>
+
+        <!-- About -->
+        <div id="about">
+        <section class="about">
+            <div class="image">
+                <img class="transition2 about-img" id="featured-image" src="images/mohan_pic.png" alt="">
+            </div>
+            <div class="about-text transition2">
+                <h2>About Me</h2>
+                <p class="featured-desc">I’m a Front-End Developer and innovative Designer. 
+                    I love the logic and structure of coding which always strives me to write elegant and efficient code. 
+                    I love taking complex problems and turning them into simple solutions. Design is another passion that puts my creativity and 
+                    imagination into real work.</p>
+                <p class="featured-desc">When I’m not coding or designing, you’ll find me in the gym or playing cricket, video games.</p>
+                <a href="assets/MOHAN's Resume.pdf" class="hero__btn" download="Mohan Resume">Download Cv</a>
+            </div>
+        </section>
+        </div>
+
+        <!-- Skills -->
+        <div id="skills">
+        <section class="skills">
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="transition4 skill-list">
+                        <div class="icon-container one">
+                            <img src="images/icon-frontend.svg" alt="UI/UX Icon">
+                        </div>
+                        <p class="skill-title">Programming</p>
+                        <p class="featured-desc skill-desc">HTML &emsp; CSS &emsp; React &emsp; PHP&emsp; Java &emsp; Python &emsp; Javascript</p>
+                    </li>
+                    <li class="transition4 skill-list">
+                        <div class="icon-container two">
+                            <img src="images/icon-ux.svg" alt="UI/UX Icon">
+                        </div>
+                        <p class="skill-title">Design</p>
+                        <p class="featured-desc skill-desc">UI/UX &emsp; Web Design &emsp; Responsive Design&emsp; Figma &emsp; Adobe Applications(Xd, Ps, Ae) &emsp; Wordpress</p>
+                    </li>
+                    <li class="transition4 skill-list">
+                        <div class="icon-container three">
+                            <img src="images/icon-logo.svg" alt="UI/UX Icon">
+                        </div>
+                        <p class="skill-title">Tools</p>
+                        <p class="featured-desc skill-desc">Git &emsp; Docker &emsp; MS Office &emsp; MySQL&emsp; Trello &emsp; Selenium &emsp; Tableau</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </div>
+
+        <!-- Projects -->
+        <section class="sub-section-alternative" id="projects">
+            <div class="heading">
+                <h2>Projects</h2>
+            </div>
+            <div class="project-container transition3">
+                <div class="project-card">
+                    <img class="project-image" src="images/pac.gif" alt="Project One Image"/>
+                    <h3>Pacman Game</h3>
+                    <p class="subtext">A game where player must eat all the dots inside an enclosed maze while avoiding four colored ghosts</p>
+                    <hr/>
+                    <p class="button"><a class="list__link" href="https://github.com/mohanreddy1666/Pacman-Game">View here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/SnakeGame.png" alt="Project One Image"/>
+                    <h3>Snake Game</h3>
+                    <p class="subtext"> A game where the player maneuvers a line which grows in length, with the line itself being a primary obstacle.</p>
+                    <hr/>
+                    <p class="button"><a class="list__link" href="https://github.com/mohanreddy1666/Snake-Game">View here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/personal.png" alt="Project One Image"/>
+                    <h3>Personal Website</h3>
+                    <p class="subtext">A website template for user to redesign the site with their innovative ideas, interests, works, and more.</p>
+                    <hr/>
+                    <p class="button"><a class="list__link" href="https://github.com/mohanreddy1666/website-with-grid">View here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="images/dashboard.gif" alt="Project One Image"/>
+                    <h3>Personal Chrome Dashboard</h3>
+                    <p class="subtext">A personal dashboard is a software that equips user with a highly customizable overview of their tabs.</p>
+                    <hr/>
+                    <p class="button"><a class="list__link" href="https://github.com/mohanreddy1666/Personal-Dashboard">View here</a></p>
+                </div>
+            </div>
+            <p class="subtext"><a class="hero__btn" href="https://github.com/mohanreddy1666">...More Projects</a></p>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>
+
+            <footer class="footer">
+                <a href="mailto:mohannallamilli11@gmail.com" class="footer__link">mohannallamilli11@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.instagram.com/inmkr9/">
+                            <img src="images/icons8-instagram.svg" alt="Instagram Icon">
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/mohan_reddy11">
+                            <img src="images/icons8-twitter.svg" alt="Twitter Icon">
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/mohan-krishna-reddy-nallamilli-939225154/">
+                            <img src="images/icons8-linkedin.svg" alt="LinkedIn Icon">
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/mohanreddy1666">
+                            <img src="images/icons8-github.svg" alt="Github Icon">
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+        <!-- Link To JS -->
+        <script src="index.js"></script>
+
+    </body>
+</html>
